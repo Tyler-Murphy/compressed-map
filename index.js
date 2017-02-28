@@ -36,5 +36,5 @@ function encode(string) {
     return crypto
     .createHash(hashAlgorithm)
     .update(string)
-    .digest('base64')
+    .digest('binary')
 }
