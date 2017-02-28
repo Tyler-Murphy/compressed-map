@@ -1,0 +1,20 @@
+{
+  "name": "compact-map",
+  "version": "1.0.0",
+  "description": "A function that modifies maps so their get, set, has, and delete methods hash long string keys automatically, to save space.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "map",
+    "hash",
+    "save",
+    "memory"
+  ],
+  "author": "Tyler Murphy <tylermurphyj@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
