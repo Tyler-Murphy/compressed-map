@@ -1,6 +1,6 @@
 {
   "name": "compact-map",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A function that modifies maps so their get, set, has, and delete methods hash long string keys automatically, to save space.",
   "main": "index.js",
   "scripts": {
