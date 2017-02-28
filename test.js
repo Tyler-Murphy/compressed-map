@@ -34,6 +34,7 @@ test('hashing', t => {
         map.set(key, value)
 
         t.notEqual(map.keys().next().value, key)
+        t.equal(map.keys().next().value.length, maxLength)
         t.equal(map.get(key), value)
         t.assert(map.has(key))
         t.assert(map.delete(key))
