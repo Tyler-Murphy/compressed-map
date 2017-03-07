@@ -13,6 +13,9 @@
     "save",
     "memory"
   ],
+  "files": [
+    "index.js"
+  ],
   "author": "Tyler Murphy <tylermurphyj@gmail.com>",
   "license": "ISC",
   "devDependencies": {
