@@ -21,5 +21,13 @@
   "devDependencies": {
     "benchmark": "^2.1.3",
     "tape": "^4.6.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tyler-Murphy/compressed-map.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tyler-Murphy/compressed-map/issues"
+  },
+  "homepage": "https://github.com/Tyler-Murphy/compressed-map#readme"
 }
