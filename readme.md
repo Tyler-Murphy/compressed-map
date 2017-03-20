@@ -27,7 +27,7 @@ Map { 'short' => 2, [ 'not', 'a', 'string' ] => 3 }
 >
 ```
 
-Pass a number as the second argument to `wrap` to specify a maximum uncompressed string key length in bytes. It defaults to 10.
+Pass a number as the second argument to `wrap` to specify the maximum uncompressed string key length in bytes. It defaults to 10.
 
 ```node
 > map = wrap(new Map(), 3)
